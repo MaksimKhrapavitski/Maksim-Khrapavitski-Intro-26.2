@@ -1,41 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Maksim Khrapavitski's Portfolio</title>
-
     <meta charset="UTF-8">
-    <meta name="description" content="Personal portfolio webpage">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maksim Khrapavitski Portfolio Website">
+    <title>Maksim Khrapavitski | Portfolio</title>
+
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
 
-    <h1>Maksim Khrapavitski</h1>
-
-    <section id="About">
-        <h2>About</h2>
-        <p>
-            Hello! My name is Maksim Khrapavitski. I am 34 years old. I live in the RTP area of North Carolina. 
-            During the last four years, I work in the Telecomm industry as a Quality Control Auditor for MasTec Network Solution Inc. My company is one of the biggest vendors of the Telecommunication giant such as AT&T, Verizon, and T-Mobile.
+    <header>
+        <h1 class="name">Maksim Khrapavitski</h1>
+        <p class="subtitle">
+            Quality Control Auditor | Telecommunications Professional | Aspiring Web Developer
         </p>
-    </section>
+    </header>
 
-    <section id="Experience">
-        <h2>Experience</h2>
-        <ul>
-            <li>JavaScript basics</li>
-            <li>HTML & CSS basics</li>
-            <li>Data analysis projects basics</li>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#connect">Connect</a></li>
         </ul>
-    </section>
+    </nav>
 
-    <section id="Connect">
-        <h2>Connect</h2>
-        <ul>
-            <li><a href="https://github.com/MaksimKhrapavitski">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/maksim-khrapavitski-14b235231">LinkedIn</a></li>
-        </ul>
-    </section>
+    <main class="container">
+
+        <section id="about">
+            <h2>About</h2>
+
+            <p>
+                Hello! My name is Maksim Khrapavitski, and I live in the RTP area of North Carolina.
+                I have over four years of experience in the telecommunications industry working as a
+                Quality Control Auditor for MasTec Network Solutions Inc.
+            </p>
+
+            <p>
+                My company supports major telecommunications providers such as AT&T, Verizon,
+                and T-Mobile. I am also developing my technical skills in HTML, CSS,
+                JavaScript, and data analysis.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Quality Control Auditor</h3>
+                        <span>2021 - Present</span>
+                    </div>
+
+                    <p>
+                        Performed telecommunications infrastructure audits,
+                        ensured compliance with client standards, and prepared quality reports.
+                    </p>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Web Development Student</h3>
+                        <span>2025 - Present</span>
+                    </div>
+
+                    <p>
+                        Learning HTML, CSS, JavaScript, and foundational data analysis skills.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul></ul>  
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul></ul>
+        </section>
+
+        <section id="connect">
+            <h2>Connect</h2>
+
+            <div class="connect-links">
+                <a href="https://github.com/MaksimKhrapavitski" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/maksim-khrapavitski-14b235231" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+
+    </main>
+    <script src="js/index.js"></script>
 
 </body>
 </html>
