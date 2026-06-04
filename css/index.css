@@ -64,11 +64,11 @@ h2 {
 }
 
 .about-header {
-    text-align: center;
+    text-align: left;
    
 }
 #about {
-    text-align: left;
+    text-align: center;
 }
 
 .experience-container {
@@ -156,6 +156,15 @@ h2 {
 
     #leave-message button {
         width: 100%;
+    }
+
+    #projects ul {
+        flex-direction: column;
+    }
+
+    #projects li {
+        width: 100%;
+        box-sizing: border-box;
     }
 }
 
@@ -251,4 +260,29 @@ h2 {
 
 #messages button:hover {
     background-color: #dc2626;
+}
+
+#projects ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+
+#projects li {
+    background-color: #e0f2fe;
+    border: 1px solid #38bdf8;
+    border-radius: 10px;
+    padding: 15px 20px;
+    min-width: 200px;
+    flex: 1 1 250px;
+    font-weight: 500;
+    color: #0f172a;
+    transition: transform 0.2s ease;
+}
+
+#projects li:hover {
+    transform: translateY(-3px);
 }
