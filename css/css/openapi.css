@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #0ea5e9;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#breed-list {
+    list-style: none;
+    padding: 0;
+}
+
+#breed-list li {
+    background-color: #e0f2fe;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    img {
+        max-width: 100%;
+    }
+
+    nav a {
+        display: block;
+        width: fit-content;
+    }
+}
